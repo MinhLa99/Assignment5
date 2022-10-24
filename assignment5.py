@@ -40,8 +40,8 @@ def write(fileoutput, number):
             
             
 def main():
-    number = read("/Users/MinhLa/Desktop/INFO450/numbers.txt")
-    return write("/Users/MinhLa/Desktop/INFO450/sorted.txt", number)
+    number = read("numbers.txt")
+    return write("sorted.txt", number)
 
 
 if __name__ == "__main__":
